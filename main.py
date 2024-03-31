@@ -1,7 +1,6 @@
 def main():
     book_path = "books/frankenstein.txt"
     text = get_file_path(book_path)
-    count = count_words(text)
     dict = char_dict(text)
     list = char_dict_to_sorted_list(dict)
     for item in list:
